@@ -602,7 +602,7 @@ body {
   flex: 1 1 40%;
   border: 2px solid #be8def;
   border-radius: 10px;
-  background: url("../img/lazy/rolling.svg") center/50px no-repeat;
+  background: url("../img/lazy/rolling.svg") center/50px no-repeat, #001325;
 }
 
 .picture-big {
@@ -719,6 +719,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.head__logo img {
+  width: 497px;
+}
 .head__burger-button {
   display: none;
   flex: 0 0 23px;
@@ -772,8 +775,8 @@ body {
 
 .map {
   line-height: 35px;
-  padding: 15px 0;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
@@ -3126,12 +3129,12 @@ main {
 }
 @media (max-width: 768px) {
   .bundle {
-    transform: scale(0.7);
+    transform: matrix(0.7, 0, 0, 0.7, 0, 0);
   }
 }
 @media (max-width: 480px) {
   .bundle {
-    transform: scale(0.4);
+    transform: matrix(0.4, 0, 0, 0.4, 0, 0);
   }
 }
 
@@ -3141,12 +3144,12 @@ main {
 }
 @media (max-width: 768px) {
   .bundle-copyright {
-    transform: scale(0.8);
+    transform: matrix(0.8, 0, 0, 0.8, 0, 0);
   }
 }
 @media (max-width: 480px) {
   .bundle-copyright {
-    transform: scale(0.6);
+    transform: matrix(0.6, 0, 0, 0.6, 0, 0);
   }
 }
 
@@ -3311,24 +3314,24 @@ header {
 
 @-webkit-keyframes bundle {
   100% {
-    transform: scale(1);
+    transform: matrix(1, 0, 0, 1, 0, 0);
   }
   50% {
-    transform: scale(0.9);
+    transform: matrix(0.9, 0, 0, 0.9, 0, 0);
   }
   0% {
-    transform: scale(1);
+    transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
 @keyframes bundle {
   100% {
-    transform: scale(1);
+    transform: matrix(1, 0, 0, 1, 0, 0);
   }
   50% {
-    transform: scale(0.9);
+    transform: matrix(0.9, 0, 0, 0.9, 0, 0);
   }
   0% {
-    transform: scale(1);
+    transform: matrix(1, 0, 0, 1, 0, 0);
   }
 }
 @media (max-width: 992px) {
