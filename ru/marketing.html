@@ -15,12 +15,13 @@
 	<script>
 	function mshow() {
 		const	mview = document.querySelector('.menu-block');
-				document.body.style.overflow = 'hidden';
+				document.querySelector('.wrapper').style.overflow = 'hidden';
 				mview.style.left = '0%';
+				
 			}
 	function mclose() {
 		const	mview = document.querySelector('.menu-block');
-				document.body.style.overflow = 'auto';
+				document.querySelector('.wrapper').style.overflow = 'auto';
 				mview.style.left = '-100%';
 			}
 	</script>
