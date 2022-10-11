@@ -15,13 +15,13 @@
 	<script>
 	function mshow() {
 		const	mview = document.querySelector('.menu-block');
-				document.querySelector('.wrapper').style.overflow = 'hidden';
+				document.querySelector('.wrapper').classList.add('overflow-hidden');
 				mview.style.left = '0%';
 				
 			}
 	function mclose() {
 		const	mview = document.querySelector('.menu-block');
-				document.querySelector('.wrapper').style.overflow = 'auto';
+				document.querySelector('.wrapper').classList.remove('overflow-hidden');
 				mview.style.left = '-100%';
 			}
 	</script>
@@ -81,7 +81,14 @@
   </head>
 
   <body>
-    <div class="wrapper">
+    <div class="wrapper overflow-hidden">
+      <div class="preloader">
+        <div class="loadingio-spinner-rolling-pqw8hj4rez">
+          <div class="ldio-rklc9w8a3r7">
+            <div></div>
+          </div>
+        </div>
+      </div>
       <div class="fullscreen">
         <div class="fullscreen__title">
           <img
