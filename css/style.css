@@ -160,11 +160,12 @@ body {
   content: "⟶";
   transition: all 0.5s;
   position: absolute;
-  top: 23px;
+  top: 21px;
   left: -20px;
   z-index: 2;
   line-height: 0;
   font-weight: 300;
+  font-family: serif;
   font-size: 32px;
   color: #ffffff;
 }
@@ -177,7 +178,6 @@ body {
   .connect-btn:hover .arrow::after {
     transform: translate(10%) scale(1, 1);
     transform-origin: left;
-    top: 23px;
     left: 0px;
   }
 }
@@ -208,7 +208,7 @@ body {
   .arrow::after {
     content: "⟶";
     line-height: 0;
-    top: 18px;
+    top: 17px;
     font-size: 30px;
   }
 }
