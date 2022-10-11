@@ -160,11 +160,11 @@ body {
   content: "⟶";
   transition: all 0.5s;
   position: absolute;
-  top: 0px;
+  top: 23px;
   left: -20px;
   z-index: 2;
+  line-height: 0;
   font-weight: 300;
-  line-height: 46px;
   font-size: 32px;
   color: #ffffff;
 }
@@ -177,7 +177,7 @@ body {
   .connect-btn:hover .arrow::after {
     transform: translate(10%) scale(1, 1);
     transform-origin: left;
-    top: 0px;
+    top: 23px;
     left: 0px;
   }
 }
@@ -190,7 +190,6 @@ body {
   }
   .arrow::after {
     content: "⟶";
-    line-height: 46px;
     font-size: 35px;
   }
 }
@@ -208,7 +207,8 @@ body {
   }
   .arrow::after {
     content: "⟶";
-    line-height: 36px;
+    line-height: 0;
+    top: 18px;
     font-size: 30px;
   }
 }
