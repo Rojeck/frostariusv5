@@ -15,11 +15,13 @@
 	<script>
 	function mshow() {
 		const	mview = document.querySelector('.menu-block');
-				mview.style.left = '0';
+				document.body.style.overflow = 'hidden';
+				mview.style.left = '0%';
 			}
 	function mclose() {
 		const	mview = document.querySelector('.menu-block');
-				mview.style.left = '-1000px';
+				document.body.style.overflow = 'auto';
+				mview.style.left = '-100%';
 			}
 	</script>
 	
@@ -246,7 +248,7 @@
     <div class="our-projects-block-component our-projects-block-top">
     
       <div class="our-projects-block-images our-projects-block-images-top">
-        <a href="./portfolio.html#p-1" class="our-projects-picture-block picture-small">
+        <a href="./portfolio.html#p-2" class="our-projects-picture-block picture-small">
           <img  data-src="../img/our-projects/1.jpg"  src="../img/lazy/lazy.png"  alt="картинка проект"/>
         </a>
         <a href="./portfolio.html#p-10" class="our-projects-picture-block picture-big">
@@ -254,7 +256,7 @@
         </a>
       </div>
       <div class="our-projects-block-images our-projects-block-images-bottom">
-        <a href="./portfolio.html#p-3" class="our-projects-picture-block picture-big">
+        <a href="./portfolio.html#p-13" class="our-projects-picture-block picture-big">
           <img  data-src="../img/our-projects/3.jpg"  src="../img/lazy/lazy.png"  alt="картинка проект"/>
         </a>
         <a href="./portfolio.html#p-9" class="our-projects-picture-block picture-small">

@@ -16,11 +16,13 @@
 	<script>
 	function mshow() {
 		const	mview = document.querySelector('.menu-block');
-				mview.style.left = '0';
+				document.body.style.overflow = 'hidden';
+				mview.style.left = '0%';
 			}
 	function mclose() {
 		const	mview = document.querySelector('.menu-block');
-				mview.style.left = '-1000px';
+				document.body.style.overflow = 'auto';
+				mview.style.left = '-100%';
 			}
 	</script>
 	
@@ -289,6 +291,34 @@
                       class="swiper-lazy"
                       src="../img/lazy/lazy.png"
                       data-src="../img/portfolio/11.jpg"
+                      alt="project picture"
+                    />
+                    <div class="swiper-lazy-preloader"></div>
+                  </a>
+                </div>
+                <div class="portfolio__item swiper-slide">
+                  <a
+                    target="_blank"
+                    href="https://www.behance.net/gallery/149522327/Digital-studio"
+                  >
+                    <img
+                      class="swiper-lazy"
+                      src="../img/lazy/lazy.png"
+                      data-src="../img/portfolio/7.jpg"
+                      alt="project picture"
+                    />
+                    <div class="swiper-lazy-preloader"></div>
+                  </a>
+                </div>
+                <div class="portfolio__item swiper-slide">
+                  <a
+                    target="_blank"
+                    href="https://www.behance.net/gallery/149471339/Photo-studio-Web-site"
+                  >
+                    <img
+                      class="swiper-lazy"
+                      src="../img/lazy/lazy.png"
+                      data-src="../img/portfolio/13.jpg"
                       alt="project picture"
                     />
                     <div class="swiper-lazy-preloader"></div>
